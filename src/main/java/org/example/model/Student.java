@@ -13,7 +13,7 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
 @AllArgsConstructor
-@ToString(exclude = {"id", "address", "company"})
+@ToString(exclude = {"id", "address", "company", "courses"})
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
